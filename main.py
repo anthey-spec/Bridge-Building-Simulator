@@ -11,7 +11,7 @@ set_site_information(
 """
 
 hide_debug_information()
-set_website_frame(False)
+set_website_framed(False)
 
 @dataclass
 class Criteria:
