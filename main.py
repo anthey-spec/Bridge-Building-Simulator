@@ -67,8 +67,8 @@ bridging_off = State (
     quantity_of_rubber = "0",
     quantity_of_fiber_reinforced_polymers = "0")
 
-@route("/welcome")
-def welcome(state: State) -> Page:
+@route
+def index(state: State) -> Page:
     return Page(state, [Button("Next", "/instructions"),
          "Welcome to the Bridge Building Simulator!"
     ])
