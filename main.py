@@ -1,12 +1,14 @@
 from drafter import *
 from dataclasses import dataclass
 set_website_title("Bridge Building Simulator")
+"""
 set_site_information(
     author = "Shreya Anthey", 
     description = "You're a civil engineer and your project is to build a bridge in the busy city of Manhattan. Do your best, you're the planner here!",
     sources = "View Final Project 1: Design ; Part 7 LLM Conversation",
     planning = ["Final Project 0 PDF link here", "Final Project 1 PDF link here"]
 )
+"""
 
 hide_debug_information()
 set_website_frame(False)
